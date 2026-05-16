@@ -304,6 +304,21 @@ section {
   letter-spacing: -0.02em;
   margin-bottom: 8px;
   animation: fadeUp 0.8s ease 0.4s both;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+@media (max-width: 768px) {
+
+  .hero-name {
+    font-size: clamp(42px, 12vw, 64px);
+    line-height: 0.95;
+
+    word-break: break-word;
+    overflow-wrap: anywhere;
+
+    max-width: 100%;
+  }
+
 }
 .hero-name .accent {
   color: transparent;
