@@ -1,29 +1,25 @@
-◤━━━━━━━━━━━━━━━━━━━━◥
-DANIEL.AMARAL.SYS
-◣━━━━━━━━━━━━━━━━━━━━◢
+# DANIEL.AMARAL.SYS
 
 > Desenvolvedor focado em experiências imersivas,
-> interfaces experimentais e sistemas que parecem
-> arquivos esquecidos de outra realidade.
+> interfaces experimentais e sistemas atmosféricos.
 
-⌬ WEB DEV
-⌬ GAME DEV
-⌬ REAL-TIME SYSTEMS
-⌬ INTERFACES & ATMOSPHERE
-⌬ DIGITAL HORROR / NARRATIVE DESIGN
+```txt
+STATUS  :: ONLINE
+MODE    :: EXPERIMENTAL
+FOCUS   :: GAME DEV / WEB DEV / REAL-TIME
+VERSION :: ARCHIVE v0.7
+```
 
-┌[ CURRENT STATUS ]──────────────
-│ ONLINE // BUILDING WORLDS
-│ STATUS: STABLE [?]
-│ ARCHIVE VERSION: v0.7
-└────────────────────────────────
+◈ WEB DEVELOPMENT
+◈ GAME DEVELOPMENT
+◈ INTERFACE DESIGN
+◈ DIGITAL HORROR
+◈ NARRATIVE SYSTEMS
+◈ REAL-TIME EXPERIENCES
 
-⌁ Criando projetos entre código,
-⌁ narrativa e estética analógica.
-⌁ Sem templates. Sem fórmulas prontas.
+> “Transformando ideias estranhas em experiências jogáveis.”
 
-> “Transformando ideias estranhas
-> em experiências jogáveis.”
-
-⟢ github.com/danreposi
-◢ SYSTEM ACTIVE
+```txt
+> github.com/danreposi
+> system active...
+```
