@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>DANIEL AMARAL ALVES // SYSTEM ARCHIVE v0.7</title>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Syne:wght@400;700;800&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- CUSTOM CURSOR (oculto em touch) -->
+<div id="cursor"></div>
+<div id="cursor-trail"></div>
+
+<!-- VHS CORNER MARKS -->
+<div class="vhs-mark tl"></div>
+<div class="vhs-mark tr"></div>
+<div class="vhs-mark bl"></div>
+<div class="vhs-mark br"></div>
+
+<!-- LOADING SCREEN -->
+<div id="loading">
+  <div class="loading-text" id="loading-text">INITIALIZING SYSTEM...</div>
+  <div class="loading-bar-wrap"><div class="loading-bar" id="loading-bar"></div></div>
+  <div class="loading-sub" id="loading-sub">ARCHIVE v0.7 // USER: DANIEL.AMARAL</div>
+</div>
+
+<!-- EASTER EGG -->
+<div class="easter-egg" title="// you found the archive. good.">&gt;_ CLASSIFIED</div>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="#hero" class="nav-logo">DAA<span>.sys</span></a>
+  <button class="nav-hamburger" id="nav-hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+  <div class="nav-links" id="nav-links">
+    <a href="#sobre" class="nav-link">SOBRE</a>
+    <a href="#projetos" class="nav-link">PROJETOS</a>
+    <a href="#tecnologias" class="nav-link">STACK</a>
+    <a href="#filosofia" class="nav-link">FILOSOFIA</a>
+    <a href="#contato" class="nav-link">CONTATO</a>
+  </div>
+  <div class="nav-status">
+    <div class="status-dot"></div>
+    ONLINE
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-grid"></div>
+  <div class="hero-glow"></div>
+
+  <div class="hero-content">
+    <div class="hero-eyebrow">&gt; ARQUIVO EXPERIMENTAL // SISTEMA ATIVO</div>
+
+    <div class="hero-name">
+      <span class="glitch" data-text="DANIEL">DANIEL</span><br>
+      <span class="accent glitch" data-text="AMARAL">AMARAL</span>
+    </div>
+
+    <div class="hero-subtitle" id="hero-subtitle">&gt;_ DESENVOLVEDOR // GAME DEV // INTERFACE ARCHITECT</div>
+
+    <div class="hero-desc">
+      "Transformando ideias estranhas em experiências jogáveis."<br><br>
+      Criando nos espaços entre narrativa e código. Entre o analógico e o digital.
+      Entre o que existe e o que ainda não foi nomeado.
+    </div>
+
+    <div class="hero-cta">
+      <a href="#projetos" class="btn-primary">VER PROJETOS</a>
+      <a href="https://github.com/danreposi" target="_blank" class="btn-secondary">&gt; GITHUB</a>
+    </div>
+  </div>
+
+  <div class="scroll-hint">
+    <div class="scroll-arrow"></div>
+    <span>SCROLL</span>
+  </div>
+</section>
+
+<!-- SOBRE -->
+<section id="sobre">
+  <div class="section-inner">
+    <div class="section-header fade-up">
+      <span class="section-number">// 01</span>
+      <h2 class="section-title">SOBRE</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="sobre-grid fade-up">
+      <div class="sobre-text">
+        <p>Sou <strong>Daniel Amaral Alves</strong> — desenvolvedor com foco em projetos criativos que vivem na interseção entre tecnologia e arte.</p>
+        <p>Meu trabalho abrange <strong>desenvolvimento web</strong>, <strong>game development</strong>, <strong>interfaces experimentais</strong> e sistemas que desafiam o que uma interface pode ser. Não construo apenas produtos — construo <strong>experiências</strong>.</p>
+        <p>Gosto de trabalhar em zonas de ambiguidade: onde a narrativa encontra o código, onde o terror psicológico encontra a mecânica de jogo, onde o design minimalista carrega camadas ocultas de significado.</p>
+        <p>Fascinado por <strong>sistemas em tempo real</strong>, <strong>preservação de jogos clássicos</strong> e por tudo que provoca aquela sensação de descobrir algo que não deveria existir.</p>
+        <div class="sobre-tags">
+          <span class="tag">GAME DEV</span>
+          <span class="tag">WEB DEV</span>
+          <span class="tag">INTERFACES</span>
+          <span class="tag">PRESERVAÇÃO</span>
+          <span class="tag">REAL-TIME</span>
+          <span class="tag">NARRATIVE DESIGN</span>
+        </div>
+      </div>
+
+      <div class="sobre-system">
+        <div class="sys-line"><span class="key">SYSTEM &nbsp;&nbsp;&nbsp;&nbsp; : </span><span class="val">DANIEL.AMARAL.ALVES</span></div>
+        <div class="sys-line"><span class="key">STATUS &nbsp;&nbsp;&nbsp;&nbsp; : </span><span class="val val-green">ONLINE // DISPONÍVEL</span></div>
+        <div class="sys-line"><span class="key">LOCALIZAÇÃO : </span><span class="val">BRASIL</span></div>
+        <div class="sys-line"><span class="key">MODO &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : </span><span class="val">CRIATIVO // EXPERIMENTAL</span></div>
+        <div class="sys-line"><span class="key">FOCO &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : </span><span class="val">PROJETOS IMERSIVOS</span></div>
+        <div class="divider"></div>
+        <div class="sys-line"><span class="key">LOG[01] : </span><span class="val">INTERFACE CARREGADA</span></div>
+        <div class="sys-line"><span class="key">LOG[02] : </span><span class="val">ARQUIVOS ENCONTRADOS</span></div>
+        <div class="sys-line"><span class="key">LOG[03] : </span><span class="val val-red">ARQUIVO CORROMPIDO [?]</span></div>
+        <div class="divider"></div>
+        <div class="sys-prompt">&gt;_ <span class="t-cursor"></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJETOS -->
+<section id="projetos">
+  <div class="section-inner">
+    <div class="section-header fade-up">
+      <span class="section-number">// 02</span>
+      <h2 class="section-title">PROJETOS</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- Quem Pode Salvar Julia -->
+      <div class="project-card fade-up">
+        <div class="card-header">
+          <span class="card-id">PRJ_001 // PRESERVAÇÃO</span>
+          <span class="card-status status-active">LANÇADO</span>
+        </div>
+        <div class="card-title">Quem Pode Salvar Julia?</div>
+        <div class="card-desc">
+          Esforço de preservação para tornar esse clássico brasileiro de 1997 (16-bit)
+          novamente jogável em sistemas modernos de 64 bits. Resolve incompatibilidade
+          via WineVDM, cria o drive virtual do CD-ROM automaticamente e mantém
+          a resolução e experiência originais intactas.
+        </div>
+        <div class="card-tech">
+          <span class="tech-badge">C++</span>
+          <span class="tech-badge">WineVDM</span>
+          <span class="tech-badge">WIN32</span>
+          <span class="tech-badge">PRESERVAÇÃO</span>
+        </div>
+        <div class="card-footer">
+          <a href="https://danprojects.itch.io/quem-pode-salvar-julia-port" target="_blank" class="card-btn">ITCH.IO</a>
+        </div>
+        <div class="card-bg-text">1997</div>
+      </div>
+
+      <!-- After Midnight -->
+      <div class="project-card fade-up" style="transition-delay:0.1s">
+        <div class="card-header">
+          <span class="card-id">PRJ_002 // HORROR</span>
+          <span class="card-status status-active">LANÇADO</span>
+        </div>
+        <div class="card-title">After Midnight</div>
+        <div class="card-desc">
+          Uma noite comum se transforma em um pesadelo. Sem energia, sem respostas
+          e com algo errado à espreita, você é forçado a deixar sua casa e enfrentar
+          a escuridão. O passado guarda segredos que não deveriam ser revisitados.
+        </div>
+        <div class="card-tech">
+          <span class="tech-badge">RPG MAKER MV</span>
+          <span class="tech-badge">HORROR</span>
+          <span class="tech-badge">NARRATIVE</span>
+        </div>
+        <div class="card-footer">
+          <a href="https://danprojects.itch.io/after-midnignt" target="_blank" class="card-btn">ITCH.IO</a>
+        </div>
+        <div class="card-bg-text">∞</div>
+      </div>
+
+      <!-- Ultimate Boss -->
+      <div class="project-card fade-up" style="transition-delay:0.2s">
+        <div class="card-header">
+          <span class="card-id">PRJ_003 // FERRAMENTA</span>
+          <span class="card-status status-active">LANÇADO</span>
+        </div>
+        <div class="card-title">Ultimate Boss</div>
+        <div class="card-desc">
+          Boss interativo para lives na Twitch — transforma seu chat em parte do combate.
+          Viewers controlam a vida do boss com comandos simples em tempo real,
+          criando uma experiência de stream colaborativa e imprevisível.
+        </div>
+        <div class="card-tech">
+          <span class="tech-badge">GAMEMAKER S2</span>
+          <span class="tech-badge">TWITCH API</span>
+          <span class="tech-badge">REAL-TIME</span>
+        </div>
+        <div class="card-footer">
+          <a href="https://danprojects.itch.io/ultimateboss" target="_blank" class="card-btn">ITCH.IO</a>
+        </div>
+        <div class="card-bg-text">LIVE</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- TECNOLOGIAS -->
+<section id="tecnologias" class="section-alt">
+  <div class="section-inner">
+    <div class="section-header fade-up">
+      <span class="section-number">// 03</span>
+      <h2 class="section-title">STACK</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="tech-grid fade-up">
+      <div class="tech-item"><span class="tech-icon">🟡</span><div class="tech-name">JAVASCRIPT</div></div>
+      <div class="tech-item"><span class="tech-icon">🟠</span><div class="tech-name">HTML5</div></div>
+      <div class="tech-item"><span class="tech-icon">🔵</span><div class="tech-name">CSS3</div></div>
+      <div class="tech-item"><span class="tech-icon">⚛️</span><div class="tech-name">REACT</div></div>
+      <div class="tech-item"><span class="tech-icon">🎮</span><div class="tech-name">GAMEMAKER S2</div></div>
+      <div class="tech-item"><span class="tech-icon">📜</span><div class="tech-name">RPG MAKER MV</div></div>
+      <div class="tech-item"><span class="tech-icon">🐙</span><div class="tech-name">GIT / GITHUB</div></div>
+      <div class="tech-item"><span class="tech-icon">🔌</span><div class="tech-name">SOCKET.IO</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- FILOSOFIA -->
+<section id="filosofia">
+  <div class="section-inner">
+    <div class="section-header fade-up">
+      <span class="section-number">// 04</span>
+      <h2 class="section-title">FILOSOFIA</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="phil-grid fade-up">
+      <div>
+        <div class="phil-big-text">
+          Código é<br>
+          a linguagem<br>
+          de <em>mundos</em><br>
+          que ainda<br>
+          não existem.
+        </div>
+        <p class="phil-sub">
+          Cada projeto é um sistema. Cada sistema tem uma atmosfera.
+          Cada atmosfera conta uma história — mesmo quando a história
+          está codificada em linhas de terminal que ninguém deveria ler.
+        </p>
+      </div>
+
+      <div class="phil-entries">
+        <div class="phil-entry">
+          <div class="phil-entry-num">// 01</div>
+          <div class="phil-entry-title">EXPERIÊNCIAS MEMORÁVEIS</div>
+          <div class="phil-entry-text">O objetivo nunca é apenas funcionar. É fazer com que o usuário sinta que encontrou algo que não esperava existir.</div>
+        </div>
+        <div class="phil-entry">
+          <div class="phil-entry-num">// 02</div>
+          <div class="phil-entry-title">NARRATIVA + TECNOLOGIA</div>
+          <div class="phil-entry-text">Todo sistema tem uma história embutida. O código é narrativa. A interface é o tom de voz. O design é a atmosfera.</div>
+        </div>
+        <div class="phil-entry">
+          <div class="phil-entry-num">// 03</div>
+          <div class="phil-entry-title">ABSTRATO → REAL</div>
+          <div class="phil-entry-text">Transformar uma ideia que existe apenas como sensação em algo que pode ser tocado, jogado, explorado — isso é o trabalho.</div>
+        </div>
+        <div class="phil-entry">
+          <div class="phil-entry-num">// 04</div>
+          <div class="phil-entry-title">INTERFACES QUE DESAFIAM</div>
+          <div class="phil-entry-text">Não toda interface precisa ser familiar. Algumas precisam ser encontradas. Decifradas. Experienciadas como descoberta.</div>
+        </div>
+        <div class="phil-entry">
+          <div class="phil-entry-num">// 05</div>
+          <div class="phil-entry-title">ATMOSFERA E IMERSÃO</div>
+          <div class="phil-entry-text">Cada detalhe contribui para o todo. A fonte, a cor, o timing da animação — tudo é parte do mundo que está sendo construído.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTATO -->
+<section id="contato" class="section-alt">
+  <div class="section-inner">
+    <div class="section-header fade-up">
+      <span class="section-number">// 05</span>
+      <h2 class="section-title">CONTATO</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="contact-grid fade-up">
+      <div class="contact-terminal">
+        <div class="terminal-bar">
+          <div class="t-dot r"></div>
+          <div class="t-dot y"></div>
+          <div class="t-dot g"></div>
+          <div class="terminal-title-bar">contact.sh — bash</div>
+        </div>
+        <div class="terminal-body">
+          <div class="t-line"><span class="t-prompt">daniel@sys</span>:~$ <span class="t-cmd">whoami</span></div>
+          <div class="t-line"><span class="t-out">daniel.amaral.alves // desenvolvedor</span></div>
+          <br>
+          <div class="t-line"><span class="t-prompt">daniel@sys</span>:~$ <span class="t-cmd">cat contacts.txt</span></div>
+          <br>
+          <div class="t-line"><span class="t-comment"># GitHub</span></div>
+          <div class="t-line"><span class="t-out">→ <a href="https://github.com/danreposi" class="t-link" target="_blank">github.com/danreposi</a></span></div>
+          <br>
+          <div class="t-line"><span class="t-comment"># Email</span></div>
+          <div class="t-line"><span class="t-out">→ <a href="mailto:danielalvesamaral641@gmail.com" class="t-link">danielalvesamaral641@gmail.com</a></span></div>
+          <br>
+          <div class="t-line"><span class="t-comment"># Itch.io</span></div>
+          <div class="t-line"><span class="t-out">→ <a href="https://danprojects.itch.io/" class="t-link" target="_blank">danprojects.itch.io</a></span></div>
+          <br>
+          <div class="t-line"><span class="t-prompt">daniel@sys</span>:~$ <span class="t-cursor"></span></div>
+        </div>
+      </div>
+
+      <div class="contact-text">
+        <div class="contact-desc">
+          Tem um projeto louco na cabeça? Quer construir algo que ninguém
+          ainda sabe que precisa? Ou simplesmente quer conversar sobre
+          game dev, interfaces e sistemas que não deveriam existir?
+        </div>
+        <div class="contact-call">
+          A linha está aberta. <span class="highlight">Transmita.</span>
+        </div>
+        <a href="mailto:danielalvesamaral641@gmail.com" class="btn-primary">INICIAR TRANSMISSÃO</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-left">
+    <span class="footer-name">DANIEL AMARAL ALVES</span> // SYSTEM ARCHIVE v0.7<br>
+    <span class="footer-sub">// todos os arquivos são fictícios. ou são?</span>
+  </div>
+  <div class="footer-right">
+    BUILT WITH INTENTION &nbsp;// &nbsp;NO TEMPLATES WERE HARMED
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
